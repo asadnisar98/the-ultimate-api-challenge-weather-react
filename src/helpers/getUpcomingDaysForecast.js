@@ -9,4 +9,5 @@ const getUpcomingDaysForecast = data =>
         weekday: getWeekday(day.applicable_date),
     }));
 
+    
 export default getUpcomingDaysForecast;
